@@ -206,7 +206,7 @@ Este projeto está licenciado sob a Licença MIT - veja o arquivo [LICENSE](LICE
 Se você encontrar algum problema ou tiver dúvidas:
 
 - 🐛 **Issues**: [GitHub Issues](https://github.com/seu-usuario/python-filas-dicionarios/issues)
-- 📧 **Email**: seu-email@exemplo.com
+- 📧 **Email**: beto1821@uol.com.br
 - 💬 **Discussões**: [GitHub Discussions](https://github.com/seu-usuario/python-filas-dicionarios/discussions)
 
 ## 🔗 Links Úteis
