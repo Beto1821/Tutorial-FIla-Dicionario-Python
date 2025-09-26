@@ -1,53 +1,64 @@
-# 🐍 Tutorial: Filas e Dicionários em Python
+# 🐍 Tutorial: Filas e Dicionários em Python - Versão Otimizada
 
 [![Python](https://img.shields.io/badge/Python-3.7+-blue.svg)](https://www.python.org/)
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
-[![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-orange.svg)](https://jupyter.org/)
+[![Code Style](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
 
-> Tutorial completo sobre **inserção, ordenação e deleção** de elementos em **Filas (Queues)** e **Dicionários** em Python.
+> Tutorial **interativo e otimizado** sobre **Filas (Queues)** e **Dicionários** em Python com foco em performance e usabilidade.
+
+## 🆕 **VERSÃO 2.0 - NOVA E MELHORADA**
+
+### ✨ **O que mudou:**
+- 🚀 **100% Python puro** - Sem dependências do Jupyter
+- 🎮 **Menu interativo** completo com simulações
+- ⚡ **Performance otimizada** com benchmarks
+- 🏗️ **Arquitetura melhorada** com classes personalizadas
+- 📱 **Interface amigável** com emojis e formatação
+- 🛡️ **Type hints** e tratamento de erros
 
 ## 📚 Sobre o Projeto
 
-Este repositório contém um tutorial abrangente que ensina os conceitos fundamentais de manipulação de duas estruturas de dados essenciais em Python:
+Este repositório contém um tutorial **completo e interativo** que ensina os conceitos fundamentais de manipulação das estruturas de dados mais importantes em Python:
 
-- **🗂️ Filas (Queues)**: FIFO, LIFO, Priority Queues
+- **🗂️ Filas (Queues)**: FIFO, thread-safe, priority queues
 - **📖 Dicionários**: Operações de inserção, deleção e ordenação
 
 ### 🎯 Objetivos de Aprendizagem
 
 Após completar este tutorial, você será capaz de:
 
-- ✅ Entender diferentes tipos de filas e quando usar cada uma
-- ✅ Implementar inserção, deleção e ordenação em filas
-- ✅ Dominar operações avançadas em dicionários
-- ✅ Escolher a estrutura de dados mais eficiente para cada situação
-- ✅ Otimizar performance usando as melhores práticas
-- ✅ Criar sistemas práticos usando estas estruturas
+- ✅ Entender diferentes implementações de filas (`deque`, `Queue`, `heapq`)
+- ✅ Escolher a implementação mais eficiente para cada caso
+- ✅ Criar sistemas práticos (atendimento, processamento de tarefas)
+- ✅ Otimizar performance usando benchmarks reais
+- ✅ Implementar suas próprias classes otimizadas
+- ✅ Usar programação interativa para experimentar
 
 ## 📁 Estrutura do Projeto
 
 ```
-📂 python-filas-dicionarios/
-├── 📄 README.md                           # Este arquivo
-├── 📓 tutorial_filas_dicionarios.ipynb    # Jupyter Notebook interativo
-├── 🐍 filas_python.py                     # Exemplos práticos de filas
-├── 🐍 dicionarios_python.py               # Exemplos práticos de dicionários
-└── 📄 requirements.txt                    # Dependências do projeto
+📂 Tutorial-Fila-Dicionario-Python/
+├── 📄 README.md                    # Este arquivo (atualizado)
+├── 🐍 filas_python.py             # Tutorial interativo de filas (NOVO)
+├── 🐍 dicionarios_python.py       # Exemplos práticos de dicionários
+├── 📄 requirements.txt            # Dependências mínimas (SEM Jupyter)
+├── 📄 .gitignore                  # Otimizado para Python puro
+├── 📄 LICENSE                     # Licença MIT
+└── 📄 QUICKSTART.md              # Guia de início rápido
 ```
 
-## 🚀 Início Rápido (5 minutos)
+## 🚀 Execução Direta (30 segundos)
 
-### ⚡ **PASSOS ESSENCIAIS:**
+### ⚡ **MÉTODO MAIS RÁPIDO:**
 
-1. **Clone o repositório:**
-   ```bash
-   git clone https://github.com/Beto1821/python-filas-dicionarios.git
-   cd python-filas-dicionarios
-   ```
+```bash
+# Clone e execute diretamente
+git clone https://github.com/Beto1821/fila.git
+cd fila
+python filas_python.py
+```
 
-2. **🔥 CRIE O AMBIENTE VIRTUAL (.venv):**
-   ```bash
-   python -m venv .venv
+**Pronto! O tutorial interativo vai começar imediatamente** 🎉
    ```
 
 3. **🔥 ATIVE O AMBIENTE VIRTUAL:**

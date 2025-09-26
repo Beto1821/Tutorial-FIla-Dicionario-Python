@@ -1,18 +1,17 @@
-# Dependências do projeto Python - Filas e Dicionários
+# Dependências do projeto Python - Filas e Dicionários - Versão Otimizada
 
-# Dependências principais
-jupyter>=1.0.0
-notebook>=6.0.0
+# Dependências principais (Python stdlib - não precisa instalar)
+# collections, queue, heapq, time, typing já inclusos no Python
 
-# Para análise e visualização (opcional)
-matplotlib>=3.0.0
-numpy>=1.18.0
-
-# Para desenvolvimento e testes (opcional)
-pytest>=6.0.0
+# Para desenvolvimento e formatação (opcional)
 black>=21.0.0
 flake8>=3.8.0
+mypy>=0.900
 
-# Para documentação (opcional)
-sphinx>=3.0.0
-sphinx-rtd-theme>=0.5.0
+# Para testes (opcional)
+pytest>=6.0.0
+pytest-cov>=2.10.0
+
+# Para performance profiling (opcional)
+memory-profiler>=0.58.0
+psutil>=5.8.0
